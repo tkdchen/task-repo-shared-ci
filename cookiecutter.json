@@ -1,3 +1,6 @@
 {
-  "repo_root": "."
+  "repo_root": ".",
+  "_copy_without_render": [
+    "*"
+  ]
 }

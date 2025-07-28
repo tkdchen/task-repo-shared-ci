@@ -22,7 +22,7 @@ jobs:
       #   run: hack/missing-ta-tasks.sh
 
       - name: Attach patch
-        if: {% raw %}${{ steps.check.conclusion == 'failure' }}{% endraw %}
+        if: ${{ steps.check.conclusion == 'failure' }}
         uses: actions/upload-artifact@v4
         with:
           name: Trusted artifacts patch
