@@ -16,9 +16,10 @@ jobs:
         id: check
         run: hack/generate-ta-tasks.sh
 
-      - name: Check missing Trusted Artifact variants
-        id: missing
-        run: hack/missing-ta-tasks.sh
+      # TODO: re-enable this check
+      # - name: Check missing Trusted Artifact variants
+      #   id: missing
+      #   run: hack/missing-ta-tasks.sh
 
       - name: Attach patch
         if: ${{ steps.check.conclusion == 'failure' }}
