@@ -8,6 +8,6 @@ all: render
 
 .PHONY: render
 render: .venv
-	if ! uv run cruft diff -e; then \
+	if ! uv run cruft diff -c HEAD -e; then \
 		uv run cruft update --skip-apply-ask --allow-untracked-files; \
 	fi
