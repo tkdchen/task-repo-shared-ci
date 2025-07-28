@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# <TEMPLATED FILE!>
+# This file comes from the templates at https://github.com/konflux-ci/task-repo-boilerplate.
+# Please consider sending a PR upstream instead of editing the file directly.
+
 RESOURCE=$1
 if [ ! -f "$RESOURCE" ]; then
   echo "Usage: $0 \$PATH_TO_TASK_OR_STEPACTION"
