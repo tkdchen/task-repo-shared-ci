@@ -1,0 +1,13 @@
+{
+  "template": "/home/acmiel/RedHat/Stonesoup/taskrepo-boilerplate",
+  "commit": "b9cae011f8337272fa07753cf9982b2a15262f57",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "repo_root": ".",
+      "_template": "/home/acmiel/RedHat/Stonesoup/taskrepo-boilerplate",
+      "_commit": "b9cae011f8337272fa07753cf9982b2a15262f57"
+    }
+  },
+  "directory": null
+}
