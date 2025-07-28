@@ -1,12 +1,15 @@
 {
   "template": "/home/acmiel/RedHat/Stonesoup/taskrepo-boilerplate",
-  "commit": "b9cae011f8337272fa07753cf9982b2a15262f57",
+  "commit": "2d15dcbd882cb2147f309a9a15056a81e800f6c9",
   "checkout": null,
   "context": {
     "cookiecutter": {
       "repo_root": ".",
+      "_copy_without_render": [
+        "*"
+      ],
       "_template": "/home/acmiel/RedHat/Stonesoup/taskrepo-boilerplate",
-      "_commit": "b9cae011f8337272fa07753cf9982b2a15262f57"
+      "_commit": "2d15dcbd882cb2147f309a9a15056a81e800f6c9"
     }
   },
   "directory": null
