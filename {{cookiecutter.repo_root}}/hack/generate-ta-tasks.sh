@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # <TEMPLATED FILE!>
-# This file comes from the templates at https://github.com/konflux-ci/task-repo-boilerplate.
+# This file comes from the templates at https://github.com/chmeliik/task-repo-boilerplate.
 # Please consider sending a PR upstream instead of editing the file directly.
 
 set -o errexit
