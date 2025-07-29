@@ -8,13 +8,10 @@ all: update
 
 .PHONY: update
 update: .venv
-	if ! uv run cruft diff -c HEAD -e; then \
-		uv run cruft update --skip-apply-ask --allow-untracked-files && \
-		git add .cruft.json; \
-	fi
+	if [ -e .cruft.json ]; then rm .cruft.json; fi
+	uv run cruft link . --no-input
+	uv run cruft update --skip-apply-ask --allow-untracked-files
 
 .PHONY: recreate
 recreate: .venv
-	if ! uv run cruft diff -c HEAD -e; then \
-		uv run cruft create . --no-input --overwrite-if-exists; \
-	fi
+	uv run cruft create . --no-input --overwrite-if-exists
