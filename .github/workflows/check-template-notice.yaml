@@ -1,0 +1,26 @@
+name: Check template notice comments
+'on':
+  pull_request:
+    branches: [main]
+jobs:
+  check:
+    name: Check template notice comments
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Check template notice comments
+        run: |
+          #!/bin/bash
+          set -euo pipefail
+
+          hack/template_notice.py fix
+
+          if [[ -n "$(git status -s)" ]]; then
+            git --no-pager diff --color
+            printf "::warning::%s\n" \
+              "Template notice comments are missing or not in the expected format." \
+              "Run './hack/template_notice.py fix' to autofix them."
+            exit 1
+          fi
