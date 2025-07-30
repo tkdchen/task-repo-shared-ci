@@ -1,3 +1,9 @@
+<!--
+<TEMPLATED FILE!>
+This file comes from the templates at https://github.com/chmeliik/task-repo-boilerplate.
+Please consider sending a PR upstream instead of editing the file directly.
+-->
+
 # Shared CI setup for Konflux Task repos
 
 Some of the CI scripts and workflows in this repo come from the [task-repo-boilerplate]
