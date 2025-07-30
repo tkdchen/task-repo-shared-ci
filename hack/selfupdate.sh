@@ -15,6 +15,6 @@ fi >&2
 find '{{cookiecutter.repo_root}}' -type f | while read -r actual_path; do
     copy_to=${actual_path#*/}
     mkdir -p "$(dirname "$copy_to")"
-    cp --remove-destination "$actual_path" "$copy_to"
+    cp -f "$actual_path" "$copy_to"
     git add "$copy_to"
 done
