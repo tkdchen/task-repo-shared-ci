@@ -1,4 +1,4 @@
-# Boilerplate for Konflux Task repos
+# 🏗️ Boilerplate for Konflux Task repos
 
 This repo provides the shared scripts and CI workflows crucial for developing
 Konflux Tasks.
@@ -8,7 +8,7 @@ To include the shared CI in your repo, see the [onboarding](#onboarding) steps.
 For further post-onboarding information, see the [SHARED-CI.md](./SHARED-CI.md)
 doc in this repo or the copy brought in by the onboarding process to your own repo.
 
-## Onboarding
+## 🚀 Onboarding
 
 Pre-requisites:
 

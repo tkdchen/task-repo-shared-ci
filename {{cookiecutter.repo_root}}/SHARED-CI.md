@@ -4,7 +4,7 @@ This file comes from the templates at https://github.com/chmeliik/task-repo-boil
 Please consider sending a PR upstream instead of editing the file directly.
 -->
 
-# Shared CI setup for Konflux Task repos
+# 🤝 Shared CI setup for Konflux Task repos
 
 Some of the CI scripts and workflows in this repo come from the [task-repo-boilerplate]
 template repo.
@@ -12,7 +12,7 @@ template repo.
 All the files that come from the template repo have a `<TEMPLATED FILE!>` comment
 near the top to help identify them.
 
-## Updating the shared CI
+## 🍏 Updating the shared CI
 
 Use [`cruft`][cruft] to update the shared CI files to the latest template:
 
@@ -29,7 +29,7 @@ version of the templates you have.
 
 TODO: add a github action that checks for updates and sends PRs.
 
-## Making changes
+## 🔧 Making changes
 
 You can edit the shared CI files if necessary, but please consider sending PRs
 for the upstream [task-repo-boilerplate] templates to reduce drift and so that
@@ -38,7 +38,7 @@ others can benefit from the changes as well.
 `cruft` *will* try to respect your custom patches during the update process, but
 as you make more local changes you increase the chance of merge conflicts.
 
-## CI checks
+## ☑️ CI checks
 
 ### Trusted Artifacts
 
