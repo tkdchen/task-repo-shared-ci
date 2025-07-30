@@ -42,10 +42,12 @@ tash() {
 
 declare -i changes=0
 emit() {
+  local file=$1
+  local msg=$2
   if [ "${GITHUB_ACTIONS:-false}" == "true" ]; then
-    printf "::error file=%s,line=1,col=0::%s\n" "$1" "$2"
+    printf "::error file=%s,line=1,col=0::%s\n" "$file" "$msg"
   else
-    printf "INFO: \033[1m%s\033[0m %s\n" "$1" "$2"
+    printf "INFO: \033[1m%s\033[0m %s\n" "$file" "$msg"
   fi
   changes=$((changes + 1))
 }
