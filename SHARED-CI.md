@@ -23,6 +23,10 @@ cruft update --skip-apply-ask --allow-untracked-files
 Don't forget to commit the `.cruft.json` changes as well to track which
 version of the templates you have.
 
+> [!TIP]
+> If you have [`uv`][uv] installed, you can run `uvx cruft` and don't need
+> to install `cruft` itself.
+
 TODO: add a github action that checks for updates and sends PRs.
 
 ## Making changes
@@ -60,5 +64,6 @@ script. See the [trusted-artifacts generator] README for more details.
 
 [task-repo-boilerplate]: https://github.com/chmeliik/task-repo-boilerplate
 [cruft]: https://cruft.github.io/cruft
+[uv]: https://docs.astral.sh/uv/
 [recipe.yaml]: https://github.com/konflux-ci/build-definitions/tree/main/task-generator/trusted-artifacts#configuration-in-recipeyaml
 [trusted-artifacts generator]: https://github.com/konflux-ci/build-definitions/tree/main/task-generator/trusted-artifacts
