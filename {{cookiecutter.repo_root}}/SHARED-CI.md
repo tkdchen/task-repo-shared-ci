@@ -14,6 +14,9 @@ Use [`cruft`][cruft] to update the shared CI files to the latest template:
 cruft update --skip-apply-ask --allow-untracked-files
 ```
 
+Don't forget to commit the `.cruft.json` changes as well to track which
+version of the templates you have.
+
 TODO: add a github action that checks for updates and sends PRs.
 
 ## Making changes
