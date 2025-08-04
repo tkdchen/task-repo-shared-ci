@@ -1,4 +1,4 @@
-# 🏗️ Boilerplate for Konflux Task repos
+# 🏗️ Shared CI for Konflux Task repos
 
 This repo provides the shared scripts and CI workflows crucial for developing
 Konflux Tasks.
