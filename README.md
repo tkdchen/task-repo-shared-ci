@@ -44,7 +44,7 @@ Process:
 4. Commit the files brought in from the template repo
 
    ```bash
-   git add .github/ hack/ SHARED-CI.md
+   git add .cruft.json .github/ hack/ SHARED-CI.md
    git commit
    ```
 
