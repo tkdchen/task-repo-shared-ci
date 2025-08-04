@@ -14,6 +14,10 @@ Pre-requisites:
 
 - Install [`cruft`][cruft]
 
+> [!TIP]
+> If you have [`uv`][uv] installed, you can run `uvx cruft` and don't need
+> to install `cruft` itself.
+
 Process:
 
 1. Check that the onboarding process will not destroy your local changes
@@ -115,3 +119,4 @@ to keep it up to date.
 [reusable workflows]: https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows#calling-a-reusable-workflow
 [template repo]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository
 [cookiecutter]: https://cookiecutter.readthedocs.io/en/stable/
+[uv]: https://docs.astral.sh/uv/
