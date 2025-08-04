@@ -28,7 +28,7 @@ Process:
 2. Run the `cruft create` command
 
    ```bash
-   cruft create https://github.com/chmeliik/task-repo-boilerplate --no-input --overwrite-if-exists
+   cruft create https://github.com/chmeliik/task-repo-shared-ci --no-input --overwrite-if-exists
    ```
 
 3. Restore the files that got deleted in the process
