@@ -104,7 +104,7 @@ to keep it up to date.
 - The repos get a solid mechanism for keeping the shared CI up to date
 - It's straightforward to test CI changes directly in the target repo
 
-❔ Whay may not:
+❔ What may not:
 
 - To some extent, it's possible to patch the shared files and have the patches
   respected during updates
