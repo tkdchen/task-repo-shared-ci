@@ -34,7 +34,7 @@ jobs:
           EOF
 
           mapfile -t merge_conflicts < <(
-            git ls-files --modified | xargs grep --files-with-matches '^<<<<<<< ours'
+            git diff --diff-filter=M --name-only | xargs grep --files-with-matches '^<<<<<<< ours'
           )
           mapfile -t rejected_patches < <(
             git ls-files --others | grep '\.rej$'
